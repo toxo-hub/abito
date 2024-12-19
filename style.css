@@ -180,7 +180,7 @@ body {
     color: rgb(10, 20, 58);
 }
 
-.content-main__list-item--desc {
+.content-main__list-item--desc-box {
     display: flex;
     flex-direction: column;
     row-gap: 4px;
