@@ -92,7 +92,7 @@ const renderProducts = (products) => {
 }
 
 const searchProducts = (products, search) => {
-    return products.filter(product => product.title.includes(search) || product.price.includes(search));
+    return products.filter(product => product.title.toLowerCase().includes(search.toLowerCase()) || product.price.includes(search));
 }
 
 cardWrapper.style.justifyContent = 'flex-start';
